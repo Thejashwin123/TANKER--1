@@ -6,12 +6,12 @@ function preload(){
 waitimg=loadImage("ASSERTS/SCREEN1.gif")
 waitimg2=loadImage("ASSERTS/SCREEN2.gif")
 roadimages=loadImage("ASSERTS/ROADIMAGES.png")
-enemyimages=loadImage("/ASSERTS/TANKER/ENEMY.png")
+enemyimages=loadImage("ASSERTS/TANKER/ENEMY.png")
 
 
-gun1img=loadImage("/ASSERTS/TANKER/TANKER-1.png")
-gun2img=loadImage("/ASSERTS/TANKER/TANKER-2.png")
-gun3img=loadImage("/ASSERTS/TANKER/TANKER-3.png")
+gun1img=loadImage("ASSERTS/TANKER/TANKER-1.png")
+gun2img=loadImage("ASSERTS/TANKER/TANKER-2.png")
+gun3img=loadImage("ASSERTS/TANKER/TANKER-3.png")
 
 
 }
@@ -28,9 +28,9 @@ road.scale=1.5
 playbutton=createImg("play.png")
 playbutton.position(width/4,height/2)
 
-gun1=createImg("/ASSERTS/TANKER/TANKER-1.png")
-gun2=createImg("/ASSERTS/TANKER/TANKER-2.png")
-gun3=createImg("/ASSERTS/TANKER/TANKER-3.png")
+gun1=createImg("ASSERTS/TANKER/TANKER-1.png")
+gun2=createImg("ASSERTS/TANKER/TANKER-2.png")
+gun3=createImg("ASSERTS/TANKER/TANKER-3.png")
 
 
 
